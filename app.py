@@ -12,7 +12,6 @@ from processing import (
     compute_monthly_savings
 )
 
-
 st.set_page_config(page_title="FINVISOR", layout="wide")
 st.title("💰 FINVISOR | AI-Powered Personal Finance")
 
