@@ -36,20 +36,19 @@ def compute_monthly_savings(df, manual_income):
     df['Month'] = df['Date'].dt.to_period('M').apply(lambda r: r.start_time)
     df['Month'] = pd.to_datetime(df['Month'])
 
-    # Extract expenses and income
+    
     expense_df = df[~df['Category'].str.lower().str.contains('income|salary|earn', na=False)].copy()
     income_df = df[df['Category'].str.lower().str.contains('income|salary|earn', na=False)].copy()
 
     monthly_expense = expense_df.groupby('Month')['Amount'].sum()
     monthly_income = income_df.groupby('Month')['Amount'].sum()
 
-    # Combine both
     all_months = pd.date_range(start=df['Month'].min(), end=df['Month'].max(), freq='MS')
     monthly_df = pd.DataFrame(index=all_months)
     monthly_df['Expense'] = monthly_expense
     monthly_df['Income'] = monthly_income
 
-    # Fill NaNs: Income fallback to manual income, Expense default to 0
+   
     monthly_df['Income'] = monthly_df['Income'].fillna(manual_income)
     monthly_df['Expense'] = monthly_df['Expense'].fillna(0)
     monthly_df['Savings'] = monthly_df['Income'] - monthly_df['Expense']
