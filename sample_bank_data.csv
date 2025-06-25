@@ -1,25 +1,501 @@
-Date,Amount,Category
-2023-11-05,4500,Food
-2023-11-15,1200,Transport
-2023-11-20,8000,Rent
-2023-11-25,1500,Entertainment
-2023-12-05,4700,Food
-2023-12-12,1100,Transport
-2023-12-20,8000,Rent
-2023-12-28,1800,Shopping
-2024-01-04,5000,Food
-2024-01-10,1150,Transport
-2024-01-20,8000,Rent
-2024-01-25,1700,Entertainment
-2024-02-06,4300,Food
-2024-02-12,1300,Transport
-2024-02-22,8000,Rent
-2024-02-27,1400,Utilities
-2024-03-03,5200,Food
-2024-03-10,1200,Transport
-2024-03-20,8000,Rent
-2024-03-25,1600,Shopping
-2024-04-01,4900,Food
-2024-04-08,1350,Transport
-2024-04-20,8000,Rent
-2024-04-27,1800,Entertainment
+Date,Category,Amount
+2022-01-01,Income - Bonus,43199.2
+2022-01-03,Shopping,1405.38
+2022-01-04,Income - Bonus,32539.94
+2022-01-07,Miscellaneous,2233.16
+2022-01-08,Dining,411.62
+2022-01-09,Transport,3901.37
+2022-01-10,Miscellaneous,4903.03
+2022-01-12,Rent,3757.91
+2022-01-16,Education,3587.2
+2022-01-20,Education,246.41
+2022-01-22,Utilities,4736.24
+2022-01-26,Income - Salary,75196.43
+2022-01-28,Education,372.94
+2022-01-31,Transport,2996.05
+2022-02-02,Rent,2262.98
+2022-02-02,Groceries,1679.64
+2022-02-02,Income - Freelance,78609.81
+2022-02-10,Groceries,4514.84
+2022-02-14,Entertainment,3473.92
+2022-02-16,Miscellaneous,693.41
+2022-02-18,Income - Freelance,57994.18
+2022-02-21,Income - Bonus,50318.87
+2022-02-21,Travel,3797.49
+2022-02-25,Entertainment,4350.11
+2022-02-27,Income - Freelance,70538.59
+2022-02-28,Healthcare,318.97
+2022-02-28,Income - Salary,76224.36
+2022-03-01,Income - Freelance,76540.79
+2022-03-01,Income - Freelance,63495.36
+2022-03-02,Income - Salary,70537.47
+2022-03-02,Dining,964.15
+2022-03-04,Income - Salary,35404.78
+2022-03-04,Income - Bonus,31936.23
+2022-03-07,Shopping,1267.68
+2022-03-07,Income - Bonus,75922.6
+2022-03-09,Transport,1664.92
+2022-03-11,Income - Freelance,73566.15
+2022-03-11,Entertainment,313.59
+2022-03-12,Entertainment,2112.64
+2022-03-12,Dining,4348.89
+2022-03-12,Income - Freelance,43956.25
+2022-03-13,Miscellaneous,2645.15
+2022-03-14,Miscellaneous,4909.52
+2022-03-14,Education,1789.52
+2022-03-15,Groceries,753.64
+2022-03-16,Dining,1057.13
+2022-03-17,Dining,383.63
+2022-03-19,Travel,2285.91
+2022-03-22,Income - Salary,69321.41
+2022-03-22,Healthcare,3109.8
+2022-03-23,Education,755.1
+2022-03-24,Travel,1112.38
+2022-03-25,Groceries,3602.17
+2022-03-29,Groceries,2695.62
+2022-03-31,Income - Freelance,56922.6
+2022-04-04,Income - Salary,77013.16
+2022-04-05,Income - Salary,63531.43
+2022-04-06,Transport,2270.23
+2022-04-06,Miscellaneous,4619.7
+2022-04-07,Travel,1706.8
+2022-04-10,Income - Bonus,36231.27
+2022-04-10,Dining,2634.19
+2022-04-11,Miscellaneous,2160.29
+2022-04-11,Healthcare,3546.6
+2022-04-13,Education,810.98
+2022-04-14,Healthcare,3391.66
+2022-04-15,Healthcare,3451.13
+2022-04-15,Rent,3154.47
+2022-04-17,Dining,2149.16
+2022-04-19,Income - Bonus,30020.3
+2022-04-20,Dining,1208.88
+2022-04-22,Income - Freelance,58999.24
+2022-04-23,Miscellaneous,1746.8
+2022-04-25,Shopping,2322.37
+2022-04-25,Entertainment,2653.64
+2022-04-25,Income - Freelance,75059.04
+2022-04-28,Income - Freelance,66798.07
+2022-04-29,Miscellaneous,607.02
+2022-05-03,Education,3386.5
+2022-05-04,Travel,1808.9
+2022-05-08,Income - Bonus,77599.98
+2022-05-09,Entertainment,3429.42
+2022-05-12,Entertainment,4071.5
+2022-05-15,Rent,317.24
+2022-05-16,Entertainment,4922.89
+2022-05-16,Travel,4278.74
+2022-05-18,Utilities,2386.0
+2022-05-22,Miscellaneous,2963.22
+2022-05-23,Income - Salary,64817.71
+2022-05-23,Shopping,2118.33
+2022-05-24,Rent,3349.08
+2022-05-27,Groceries,4484.77
+2022-06-06,Income - Bonus,68502.31
+2022-06-06,Utilities,3936.42
+2022-06-08,Entertainment,1044.26
+2022-06-09,Income - Salary,55897.89
+2022-06-09,Groceries,2875.55
+2022-06-11,Income - Bonus,36067.93
+2022-06-11,Rent,4046.8
+2022-06-11,Miscellaneous,2749.43
+2022-06-13,Education,3058.17
+2022-06-13,Income - Freelance,74571.3
+2022-06-15,Travel,4112.03
+2022-06-16,Education,2248.36
+2022-06-17,Education,2340.39
+2022-06-18,Rent,3769.55
+2022-06-19,Shopping,2360.33
+2022-06-20,Income - Freelance,42361.99
+2022-06-25,Miscellaneous,1531.09
+2022-07-02,Income - Freelance,56064.99
+2022-07-07,Miscellaneous,1348.38
+2022-07-10,Shopping,571.92
+2022-07-14,Dining,1325.57
+2022-07-14,Transport,1734.61
+2022-07-14,Education,586.77
+2022-07-16,Rent,1310.06
+2022-07-16,Income - Salary,37640.26
+2022-07-23,Entertainment,508.3
+2022-07-23,Healthcare,1788.23
+2022-07-25,Shopping,2195.72
+2022-07-28,Entertainment,4197.88
+2022-07-29,Healthcare,4543.22
+2022-08-03,Travel,4741.1
+2022-08-04,Groceries,4312.31
+2022-08-05,Income - Freelance,58784.52
+2022-08-05,Shopping,228.3
+2022-08-06,Transport,1633.34
+2022-08-07,Healthcare,4296.55
+2022-08-07,Income - Bonus,50951.06
+2022-08-08,Income - Salary,66731.7
+2022-08-09,Income - Freelance,60162.63
+2022-08-11,Entertainment,2543.5
+2022-08-12,Dining,2292.01
+2022-08-13,Groceries,2066.51
+2022-08-13,Miscellaneous,3459.88
+2022-08-14,Healthcare,3676.07
+2022-08-14,Income - Bonus,53369.51
+2022-08-17,Rent,4907.47
+2022-08-19,Education,329.44
+2022-08-22,Healthcare,3041.09
+2022-08-23,Miscellaneous,330.09
+2022-08-23,Miscellaneous,2257.34
+2022-08-24,Income - Bonus,53084.92
+2022-08-27,Groceries,1448.75
+2022-08-27,Transport,1215.97
+2022-08-29,Transport,1820.0
+2022-08-31,Healthcare,1535.63
+2022-09-01,Income - Bonus,51078.24
+2022-09-02,Income - Bonus,34095.31
+2022-09-03,Groceries,3795.32
+2022-09-04,Groceries,4999.56
+2022-09-06,Transport,1276.27
+2022-09-08,Utilities,3949.92
+2022-09-08,Miscellaneous,393.24
+2022-09-08,Groceries,4758.14
+2022-09-10,Entertainment,4228.3
+2022-09-10,Travel,931.44
+2022-09-11,Rent,2473.09
+2022-09-12,Utilities,2907.05
+2022-09-13,Entertainment,2432.16
+2022-09-15,Dining,3881.11
+2022-09-25,Rent,3108.28
+2022-09-27,Income - Salary,65917.86
+2022-09-27,Income - Freelance,70965.06
+2022-09-28,Dining,718.87
+2022-09-28,Groceries,4658.66
+2022-09-29,Travel,3451.27
+2022-09-29,Healthcare,2103.94
+2022-09-29,Income - Salary,39916.49
+2022-09-29,Travel,3514.95
+2022-09-29,Miscellaneous,1365.68
+2022-10-01,Income - Salary,68624.04
+2022-10-01,Income - Bonus,64212.95
+2022-10-02,Income - Freelance,36052.75
+2022-10-04,Travel,3956.65
+2022-10-06,Transport,2757.18
+2022-10-09,Miscellaneous,1978.74
+2022-10-12,Education,3308.21
+2022-10-12,Groceries,4277.96
+2022-10-12,Income - Bonus,54510.09
+2022-10-13,Healthcare,4811.78
+2022-10-13,Miscellaneous,4479.56
+2022-10-16,Shopping,3595.08
+2022-10-19,Healthcare,1045.46
+2022-10-20,Education,4834.27
+2022-10-24,Dining,3156.38
+2022-10-28,Education,3918.28
+2022-10-28,Shopping,2290.76
+2022-10-31,Income - Salary,59623.73
+2022-11-02,Transport,4288.22
+2022-11-03,Income - Bonus,76731.09
+2022-11-04,Dining,4431.83
+2022-11-06,Entertainment,3802.29
+2022-11-11,Travel,3129.59
+2022-11-16,Healthcare,1814.7
+2022-11-18,Shopping,4284.57
+2022-11-18,Rent,2540.24
+2022-11-19,Transport,4029.6
+2022-11-20,Transport,1542.36
+2022-11-20,Travel,3565.68
+2022-11-20,Dining,2867.8
+2022-11-28,Education,4750.7
+2022-11-29,Utilities,1358.51
+2022-12-05,Healthcare,2545.17
+2022-12-11,Income - Freelance,42016.2
+2022-12-13,Shopping,3300.33
+2022-12-14,Shopping,2351.24
+2022-12-15,Groceries,646.66
+2022-12-15,Entertainment,2141.13
+2022-12-18,Entertainment,1669.79
+2022-12-19,Travel,1971.3
+2022-12-24,Education,2748.43
+2022-12-29,Healthcare,4983.83
+2022-12-30,Education,1787.8
+2023-01-03,Income - Salary,52687.26
+2023-01-06,Dining,1406.74
+2023-01-06,Utilities,3662.16
+2023-01-07,Transport,773.86
+2023-01-09,Education,4764.21
+2023-01-14,Income - Salary,39257.49
+2023-01-15,Entertainment,3745.3
+2023-01-18,Dining,3678.01
+2023-01-18,Income - Freelance,56231.84
+2023-01-23,Dining,4906.45
+2023-01-24,Income - Bonus,39705.88
+2023-01-24,Entertainment,1932.23
+2023-01-25,Dining,267.91
+2023-01-25,Education,807.6
+2023-01-26,Groceries,4876.62
+2023-01-30,Education,1602.26
+2023-02-04,Rent,3261.77
+2023-02-10,Income - Freelance,54543.93
+2023-02-10,Income - Bonus,30613.27
+2023-02-13,Dining,2453.11
+2023-02-13,Shopping,1835.39
+2023-02-15,Groceries,1411.9
+2023-02-15,Income - Bonus,53886.46
+2023-02-17,Income - Bonus,33267.17
+2023-02-18,Shopping,555.59
+2023-02-21,Miscellaneous,3494.96
+2023-02-21,Rent,916.15
+2023-02-25,Travel,4755.8
+2023-03-06,Utilities,4970.81
+2023-03-06,Utilities,2878.75
+2023-03-09,Healthcare,3110.32
+2023-03-09,Income - Freelance,60920.92
+2023-03-09,Income - Freelance,56128.63
+2023-03-09,Shopping,4560.82
+2023-03-10,Dining,4328.8
+2023-03-10,Healthcare,1665.83
+2023-03-10,Travel,489.11
+2023-03-15,Income - Salary,34961.68
+2023-03-18,Income - Freelance,40389.4
+2023-03-22,Entertainment,1470.3
+2023-03-25,Utilities,953.87
+2023-03-25,Rent,2849.56
+2023-03-30,Rent,212.84
+2023-04-05,Shopping,3508.98
+2023-04-05,Shopping,1598.04
+2023-04-08,Entertainment,1582.9
+2023-04-10,Dining,3574.34
+2023-04-10,Shopping,541.66
+2023-04-11,Entertainment,4634.77
+2023-04-14,Income - Freelance,69562.39
+2023-04-15,Travel,3373.68
+2023-04-15,Entertainment,2240.67
+2023-04-16,Education,1279.09
+2023-04-19,Rent,4560.37
+2023-04-19,Income - Bonus,37111.81
+2023-04-24,Groceries,996.43
+2023-04-25,Dining,3056.21
+2023-04-30,Income - Bonus,58460.35
+2023-04-30,Dining,2307.94
+2023-05-02,Shopping,3505.65
+2023-05-04,Income - Salary,50125.43
+2023-05-08,Dining,2602.27
+2023-05-13,Shopping,2301.24
+2023-05-13,Travel,391.33
+2023-05-13,Healthcare,3725.76
+2023-05-14,Travel,1401.77
+2023-05-16,Utilities,1298.84
+2023-05-21,Miscellaneous,4212.6
+2023-05-27,Travel,3018.19
+2023-05-28,Groceries,4997.95
+2023-05-30,Miscellaneous,4142.82
+2023-06-02,Travel,393.11
+2023-06-03,Income - Freelance,38759.54
+2023-06-04,Education,3327.25
+2023-06-04,Dining,1071.15
+2023-06-05,Travel,2292.25
+2023-06-06,Income - Bonus,54586.29
+2023-06-11,Utilities,2456.05
+2023-06-14,Healthcare,1799.88
+2023-06-20,Miscellaneous,702.08
+2023-06-25,Rent,1783.06
+2023-06-26,Income - Salary,54773.45
+2023-06-26,Miscellaneous,4736.93
+2023-06-28,Income - Bonus,68024.99
+2023-06-28,Groceries,2383.16
+2023-06-30,Transport,1411.51
+2023-07-01,Utilities,4856.89
+2023-07-04,Healthcare,4351.57
+2023-07-04,Income - Bonus,79405.96
+2023-07-04,Miscellaneous,4372.96
+2023-07-05,Shopping,2183.59
+2023-07-06,Entertainment,2688.51
+2023-07-07,Travel,3830.93
+2023-07-07,Miscellaneous,2321.8
+2023-07-07,Groceries,1177.08
+2023-07-08,Education,828.86
+2023-07-10,Dining,2302.96
+2023-07-11,Income - Salary,54235.59
+2023-07-13,Groceries,4871.1
+2023-07-13,Travel,4036.71
+2023-07-17,Income - Salary,37918.91
+2023-07-18,Education,265.64
+2023-07-20,Healthcare,647.4
+2023-07-21,Income - Bonus,75646.49
+2023-07-21,Shopping,4745.89
+2023-07-22,Miscellaneous,4194.29
+2023-07-22,Shopping,4676.73
+2023-07-24,Dining,2642.59
+2023-07-25,Dining,2194.35
+2023-07-29,Shopping,4905.17
+2023-07-29,Entertainment,2392.58
+2023-07-31,Rent,2041.21
+2023-08-02,Travel,2639.56
+2023-08-04,Rent,4347.33
+2023-08-04,Dining,3908.84
+2023-08-07,Income - Bonus,50747.12
+2023-08-08,Income - Freelance,55386.88
+2023-08-14,Income - Bonus,30128.26
+2023-08-15,Income - Salary,44927.79
+2023-08-16,Travel,2983.63
+2023-08-17,Miscellaneous,2550.27
+2023-08-21,Rent,2343.43
+2023-08-21,Shopping,1856.59
+2023-08-22,Education,3861.79
+2023-08-22,Healthcare,2385.65
+2023-08-26,Transport,4374.09
+2023-08-26,Income - Salary,41940.28
+2023-08-27,Healthcare,1321.1
+2023-08-28,Income - Freelance,50538.75
+2023-09-01,Transport,3774.58
+2023-09-02,Income - Salary,75671.51
+2023-09-03,Healthcare,2053.18
+2023-09-03,Miscellaneous,4003.49
+2023-09-06,Miscellaneous,4907.93
+2023-09-09,Shopping,4831.16
+2023-09-11,Rent,2611.0
+2023-09-12,Travel,1793.57
+2023-09-14,Utilities,4396.11
+2023-09-16,Shopping,678.62
+2023-09-16,Shopping,273.67
+2023-09-19,Rent,2167.9
+2023-09-26,Miscellaneous,4855.79
+2023-09-27,Utilities,2453.55
+2023-09-29,Dining,1825.09
+2023-10-03,Income - Salary,49874.17
+2023-10-05,Utilities,4288.47
+2023-10-06,Income - Bonus,63717.87
+2023-10-09,Education,2024.05
+2023-10-12,Transport,3208.64
+2023-10-13,Income - Freelance,54397.37
+2023-10-13,Education,372.32
+2023-10-17,Utilities,1326.9
+2023-10-17,Miscellaneous,4620.46
+2023-10-18,Entertainment,3784.48
+2023-10-19,Healthcare,4896.02
+2023-10-21,Income - Freelance,61687.39
+2023-10-23,Income - Bonus,35025.36
+2023-10-24,Rent,3531.21
+2023-10-26,Groceries,420.76
+2023-10-28,Income - Freelance,32805.96
+2023-10-28,Transport,1999.24
+2023-10-30,Rent,1372.15
+2023-11-01,Healthcare,2916.45
+2023-11-01,Income - Freelance,39002.84
+2023-11-03,Rent,579.05
+2023-11-05,Income - Bonus,49127.21
+2023-11-06,Miscellaneous,1355.98
+2023-11-07,Travel,886.97
+2023-11-09,Shopping,3261.94
+2023-11-09,Shopping,1425.57
+2023-11-11,Groceries,4514.76
+2023-11-15,Shopping,4525.81
+2023-11-17,Miscellaneous,2823.67
+2023-11-17,Utilities,2320.3
+2023-11-18,Transport,4940.73
+2023-11-19,Dining,3266.91
+2023-11-19,Healthcare,3513.5
+2023-11-21,Shopping,4257.46
+2023-11-23,Entertainment,4996.99
+2023-11-24,Income - Bonus,54160.4
+2023-11-28,Entertainment,2030.55
+2023-11-28,Transport,2959.1
+2023-11-30,Income - Salary,44761.54
+2023-12-01,Income - Bonus,62911.49
+2023-12-03,Dining,238.87
+2023-12-05,Income - Bonus,64289.97
+2023-12-06,Income - Salary,78680.14
+2023-12-08,Travel,3776.83
+2023-12-15,Income - Bonus,75207.76
+2023-12-16,Dining,3923.56
+2023-12-20,Entertainment,3113.91
+2023-12-20,Transport,1251.22
+2023-12-22,Entertainment,3180.28
+2023-12-23,Miscellaneous,3826.77
+2023-12-26,Income - Freelance,62959.08
+2024-01-01,Income - Bonus,36838.96
+2024-01-04,Utilities,4536.34
+2024-01-04,Miscellaneous,389.23
+2024-01-05,Income - Freelance,52041.16
+2024-01-06,Travel,1951.33
+2024-01-06,Rent,632.64
+2024-01-07,Dining,1768.25
+2024-01-09,Healthcare,1043.07
+2024-01-10,Rent,3975.26
+2024-01-11,Transport,2748.09
+2024-01-16,Dining,4186.27
+2024-01-17,Dining,4587.43
+2024-01-17,Shopping,4843.44
+2024-01-18,Dining,3783.48
+2024-01-18,Transport,4060.32
+2024-01-19,Shopping,4821.89
+2024-01-20,Rent,3819.93
+2024-01-24,Entertainment,4328.67
+2024-01-25,Income - Salary,63720.31
+2024-01-29,Healthcare,4842.89
+2024-01-30,Income - Freelance,57865.63
+2024-01-31,Utilities,3995.27
+2024-02-02,Groceries,1469.4
+2024-02-04,Utilities,2382.97
+2024-02-05,Miscellaneous,3795.26
+2024-02-08,Dining,3005.89
+2024-02-09,Income - Bonus,61927.46
+2024-02-11,Transport,720.06
+2024-02-13,Entertainment,2463.09
+2024-02-13,Travel,4444.33
+2024-02-17,Education,1774.43
+2024-02-18,Travel,1262.56
+2024-02-20,Utilities,3249.94
+2024-02-20,Shopping,4565.06
+2024-02-21,Dining,3316.35
+2024-02-24,Utilities,870.93
+2024-02-26,Groceries,1660.95
+2024-02-27,Shopping,757.38
+2024-03-02,Entertainment,4458.84
+2024-03-05,Rent,2065.5
+2024-03-08,Transport,3418.33
+2024-03-13,Income - Salary,64824.2
+2024-03-13,Education,2211.81
+2024-03-14,Income - Salary,66329.96
+2024-03-14,Healthcare,3343.63
+2024-03-22,Income - Bonus,54467.35
+2024-03-30,Healthcare,4707.45
+2024-04-04,Dining,357.04
+2024-04-05,Transport,1242.89
+2024-04-06,Shopping,4762.66
+2024-04-06,Income - Bonus,48134.3
+2024-04-06,Miscellaneous,1963.21
+2024-04-06,Miscellaneous,1921.63
+2024-04-07,Healthcare,1524.23
+2024-04-08,Utilities,4755.25
+2024-04-15,Income - Bonus,52735.87
+2024-04-16,Miscellaneous,1218.11
+2024-04-21,Miscellaneous,3066.3
+2024-04-29,Groceries,442.78
+2024-05-01,Transport,1369.13
+2024-05-03,Rent,3977.49
+2024-05-04,Entertainment,529.33
+2024-05-06,Income - Freelance,57710.39
+2024-05-11,Travel,1236.57
+2024-05-13,Income - Bonus,41649.93
+2024-05-17,Income - Freelance,37377.71
+2024-05-19,Travel,213.61
+2024-05-21,Income - Bonus,79201.41
+2024-05-23,Rent,2793.03
+2024-05-25,Income - Freelance,38724.86
+2024-05-26,Miscellaneous,4358.95
+2024-05-30,Rent,271.33
+2024-05-31,Income - Freelance,69421.58
+2024-05-31,Travel,1754.1
+2024-06-01,Rent,1473.76
+2024-06-01,Rent,3760.25
+2024-06-01,Education,745.52
+2024-06-01,Utilities,2485.98
+2024-06-03,Income - Freelance,48101.95
+2024-06-04,Travel,723.46
+2024-06-06,Education,1263.44
+2024-06-09,Travel,408.15
+2024-06-10,Income - Freelance,75437.58
+2024-06-12,Miscellaneous,2702.97
+2024-06-14,Shopping,3288.04
+2024-06-15,Groceries,491.96
+2024-06-16,Shopping,4267.03
+2024-06-18,Healthcare,3493.27
+2024-06-18,Shopping,3619.53
+2024-06-18,Shopping,552.76
+2024-06-19,Utilities,1746.14
