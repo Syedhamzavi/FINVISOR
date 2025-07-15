@@ -12,17 +12,21 @@ from processing import (
     compute_monthly_savings
 )
 
-st.set_page_config(page_title="FINVISOR", layout="wide")
-st.title("💰 FINVISOR | AI-Powered Personal Finance")
+st.set_page_config(
+    page_title="FINVISOR - Personal Finance Assistant",
+    page_icon="💰",
+    layout="wide"
+)
+
+
+st.title("💰 FINVISOR - Your Personal Finance Advisor")
 
 
 st.markdown("""
-<style>
-    .block-container {padding-top: 2rem; padding-bottom: 2rem}
-    .stTabs [data-baseweb="tab-list"] {gap: 10px;}
-    .stTabs [data-baseweb="tab"] {padding: 8px 16px; border-radius: 4px 4px 0 0;}
-</style>
-""", unsafe_allow_html=True)
+Welcome to **FINVISOR**, your intelligent personal finance assistant!  
+Track your income, spending, savings, and get smart financial insights powered by machine learning.  
+Upload monthly data or enter it manually, and let FINVISOR do the rest.
+""")
 
 
 with st.sidebar:
